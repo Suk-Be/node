@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload</title>
+    <style>
+        form {
+            margin-bottom: 20px;
+            background: black;
+            padding: 20px;
+        }
+        label {
+            font-family: 'Roboto', sans-serif;
+            font-size: large;
+            color: white;
+        }
+        input[type="file"] {
+            color: white;
+            font-size: medium;
+        }
+        input[type="submit"] {
+            font-size: medium;
+            color: white;
+            background: chocolate;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--  SINGLE FILE
+multer needs
+ input name
+ enctype="multipart/form-data"
+
+FYI:
+enctype="multipart/form-data"
+No characters are encoded. This value is required when you are using forms that have a file upload control
+-->
+<form method="POST" action="/upload-file" enctype="multipart/form-data">
+    <label for="single">Single file (any file possible)</label>
+    <br />
+    <br />
+    <input id="single" type="file" name="single-val" />
+    <br />
+    <br />
+    <input type="submit" value="Upload any file"/>
+</form>
+
+
+<!-- MULTIPLE FILES
+additional html api
+   multiple
+   accept
+-->
+<form method="POST" action="/upload-multiple"  enctype="multipart/form-data">
+    <label for="multiple">Multiple Word files (only word files possible)</label>
+    <br />
+    <br />
+    <input id="multiple" type="file" name="multiple-vals" multiple accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+    <br />
+    <br />
+    <input type="submit" value="Upload Word files"/>
+</form>
+
+<!--   PHOTO
+additional html api
+   multiple
+   accept
+-->
+<form method="POST" action="/upload-photos" enctype="multipart/form-data">
+    <label for="images">Multiple image files (only image files possible)</label>
+    <br />
+    <br />
+    <input id="images" type="file" name="my-photos" accept="image/*" multiple>
+    <br />
+    <br />
+    <input type="submit" value="Upload Photos"/>
+</form>
+
+</body>
+</html>

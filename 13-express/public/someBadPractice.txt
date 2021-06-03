@@ -1,0 +1,5 @@
+example static file in
+public folder
+be aware in larger project
+it could be bad practice to not use folders
+for structuring a larger amount of different files

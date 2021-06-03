@@ -1,0 +1,52 @@
+Test Verzeichnis auf dem Desktop
+C:\Users\lc_admin.JangS\Desktop\node test
+
+// Getting started
+
+
+Should know Ecosystem
+- it is possible to use any ecmascript the node version supports
+	- ES 6, 7, 8, 9, 10
+
+Should practice
+Ovverview Utility modules
+https://www.tutorialspoint.com/nodejs/nodejs_utility_module.htm
+
+OS Module: Provides basic operating-system related utility functions.
+https://www.tutorialspoint.com/nodejs/nodejs_os_module.htm
+
+Path Module: Provides utilities for handling and transforming file paths.
+https://www.tutorialspoint.com/nodejs/nodejs_path_module.htm
+
+Net Module: Provides both servers and clients as streams. Acts as a network wrapper.
+https://www.tutorialspoint.com/nodejs/nodejs_net_module.htm
+
+DNS Module: Provides functions to do actual DNS lookup as well as to use underlying operating system name resolution functionalities.
+https://www.tutorialspoint.com/nodejs/nodejs_dns_module.htm
+
+Domain Module: Provides ways to handle multiple different I/O operations as a single group.
+https://www.tutorialspoint.com/nodejs/nodejs_domain_module.htm
+
+
+
+
+
+Should Learn node.js documentation (Getting started)
+https://nodejs.dev/learn/how-to-exit-from-a-nodejs-program
+
+
+Nice Stuff about deploying and testing
+https://create-react-app.dev/
+
+https://yonigoldberg.medium.com/yoni-goldberg-javascript-nodejs-testing-best-practices-2b98924c9347
+
+	https://www.serverless.com/
+	https://principlesofchaos.org/
+	https://docs.pact.io/
+
+
+https://goldbergyoni.com/checklist-best-practice-of-node-js-in-production/
+
+
+http://galenframework.com/
+https://de.wikipedia.org/wiki/Mashup_(Internet)

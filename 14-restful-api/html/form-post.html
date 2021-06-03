@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POST</title>
+</head>
+<body>
+    <!-- process_post route from ../04-server-post.js is used -->
+    <form
+            action="http://127.0.0.1:8090/add-user"
+            method="POST"
+    >
+        <label for="user">
+            user:
+        </label>
+        <input
+                id="user"
+                type="text"
+                name="user"
+        >
+        <br />
+        <label for="name">
+            name:
+        </label>
+        <input
+                id="name"
+                type="text"
+                name="name"
+        >
+        <br />
+        <label for="password">
+            password:
+        </label>
+        <input
+                id="password"
+                type="text"
+                name="password"
+        >
+        <br />
+        <label for="profession">
+            profession:
+        </label>
+        <input
+                id="profession"
+                type="text"
+                name="profession"
+        >
+        <br />
+        <label for="id">
+            ID:
+        </label>
+        <input
+                id="id"
+                type="number"
+                name="id"
+        >
+        <br />
+        <input
+                type="submit"
+                value="Submit"
+        >
+    </form>
+</body>
+</html>

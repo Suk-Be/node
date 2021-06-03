@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POST</title>
+</head>
+<body>
+    <!-- process_post route from ../04-server-post.js is used -->
+    <form
+            action="http://127.0.0.1:8084/process-post"
+            method="POST"
+    >
+        <label for="first_name">
+            First Name:
+        </label>
+        <input
+                id="first_name"
+                type="text"
+                name="first_name"
+        >
+        <br />
+        <label for="last_name">
+            Last Name:
+        </label>
+        <input
+                id="last_name"
+                type="text"
+                name="last_name"
+        >
+        <input
+                type="submit"
+                value="Submit"
+        >
+    </form>
+</body>
+</html>
